@@ -1,0 +1,156 @@
+heading * {
+    background-color: #F0F0F0;
+    color: #0F0F0F;
+    padding-left: 40px;
+}
+heading h1 {
+    background-color: #F0F0F0;
+    color: #0F0F0F;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 400%;
+    
+    padding-top: 40px;
+}
+heading h2 {
+    background-color: #F0F0F0;
+    color: #555555;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 150%;
+    
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+body * {
+    background-color: white;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+    padding-left: 40px;
+    
+    font-size: 120%;
+}
+p {
+    padding-top: 20px;
+    font-size: 100%;
+}
+head {
+    margin: 0;
+}
+iframe {
+    background-color: #DDDDDD;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+label {
+    background-color: #F0F0F0;
+    
+    display: inline-block;
+    
+    width: 75px;
+}
+input {
+    display: inline-block;
+    
+    width: 400px;
+}
+p {
+    color: black;
+    font-family: "Arial", Gadget, sans-serif;
+    font-size: 100%;
+    
+    padding-top: 10px;
+    padding-left: 40px;
+}
+li {
+    float: left;
+    width: 150px;
+}
+li a {
+    display: block;
+    color: #555555;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 120%;
+    
+    text-align: center;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    text-decoration: none;
+    background-color: #DDDDDD;
+}
+li a:hover {
+    background-color: #555555;
+    color: white;
+}
+script {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DDDDDD;
+}
+#chatbox {
+    text-align:left;
+    width: 600px;
+    height: 240px;
+    overflow-y: scroll;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    background-color: white;
+    border: 20px solid #F0F0F0;
+}
+#content {
+    background-color: #FFFFFF;
+    font-family: "Arial", Gadget, sans-serif;
+    text-decoration: none;
+}
+.download {
+    display: block;
+    background-color: #F0F0F0;
+    color: blue;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    padding-left: 40px;
+}
+.download:hover {
+    background-color: #DDDDDD;
+}
+.field {
+    background-color: #F0F0F0;
+    
+    padding-bottom: 10px;
+    
+    width: 600px;
+    height: 20px;
+    
+    padding-left: 40px;
+}
+.button {
+    display: inline-block;
+    
+    width: 100px;
+    
+    border: 2px solid #DDDDDD;
+}

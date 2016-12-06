@@ -1,0 +1,2 @@
+This /includes folder should not be accessible to arbitrary user.
+The permission should be admin only.

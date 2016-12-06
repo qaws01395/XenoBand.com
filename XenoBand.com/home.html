@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/chat.js"></script>
+ </head>
+
+ <div class="row">
+  <div class="col-lg-8">
+   <div class="jumbotron">
+    <div id="auth_div" class="btn-group" role="group" aria-label="..." style="float:right">
+    </div>
+    <h1>XenoBand</h1>
+    <p>Create your own instruments and play with your friends!</p>
+    <button type="button" class="btn btn-primary"
+                          onclick="highlight(this.id); load('download.html')" id="download">
+     Download Latest Version
+    </button>
+   </div>
+   <div class="well well-lg" style="height: 295px">
+    <h4>Features <small>updated on 2016-05</small></h4>
+    <dl>
+     <dt>band</dt>
+     <dd>- connect with your friends and play the musical instruments designed by yourself</dd>
+     <dt>chat room</dt>
+     <dd>- chat with your friends online and send messages to our instant chat page</dd>
+     <dt>pitch shifter</dt>
+     <dd>- create your own musical instrument with your own voice or any sample sound wave</dd>
+     <dt>sound synthesizer</dt>
+     <dd>- create your own musical instrument with various wave forms and AM/FM modulation</dd>
+     <br>
+     <dt>
+     <a href="https://www.youtube.com/watch?v=3uEYq9GIgiA">more...</a>
+     </dt>
+    </dl>
+   </div>
+  </div>
+  <div class="col-lg-4">
+   <div class="well well-lg">
+    <h4>Instant Chat</h4>
+    <div id="chatbox" class="well well-lg"
+                      style="height: 420px;
+                      overflow-y: scroll; background: white">
+    </div>
+    <div class="input-group">
+     <input type="text" class="form-control" placeholder="Name"
+                                             id="name">
+     <span class="input-group-btn">
+      <button type="button" class="btn btn-default"
+                            id="history" style="width: 100px">
+       History
+      </button>
+     </span>
+    </div>
+    <div class="input-group">
+     <input type="text" class="form-control" placeholder="Message"
+                                             id="message">
+     <span class="input-group-btn">
+      <button type="button" class="btn btn-default"
+                            id="send" style="width: 100px">
+       Send
+      </button>
+     </span>
+    </div>
+   </div>
+  </div>
+ </div>
+</html>
+

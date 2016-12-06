@@ -1,0 +1,26 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Register Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <h2>User register</h2>
+
+  <p>Please fill in your infomation:</p>
+  <form method="post" action="report.php">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" /><br />
+    <label for="password">Password</label>
+    <input type="password" id="psd" name="psd" /><br />
+    <label for="ip_address">IP address(try ipconfig for windows; ifconfig for unix)?</label>
+    <input type="text" id="ip_addr" name="ip_addr" /><br />
+    <label for="subscribe">Do you want to receive email from our software?</label>
+    Yes <input id="subscribe" name="subscribe" type="radio" value="yes" />
+    No <input id="subscribe" name="subscribe" type="radio" value="no" /><br />
+    <img src="stone.jpg" >
+    <input type="submit" value="Sign up" name="submit" />
+  </form>
+</body>
+</html>
